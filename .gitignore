@@ -1,72 +1,72 @@
-gostack-gympoint-backend/node_modules
-gostack-gympoint-backend/.env
+*/yarn.lock
+*/node_modules
+
+backend/.env
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-gostack-gympoint-web/node_modules
-gostack-gympoint-web/.pnp
-gostack-gympoint-web/.pnp.js
+frontend/.pnp
+frontend/.pnp.js
 
 # testing
-gostack-gympoint-web/coverage
+frontend/coverage
 
 # production
-gostack-gympoint-web/build
+frontend/build
 
 # misc
-gostack-gympoint-web/.DS_Store
-gostack-gympoint-web/.env.local
-gostack-gympoint-web/.env.development.local
-gostack-gympoint-web/.env.test.local
-gostack-gympoint-web/.env.production.local
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
 
-gostack-gympoint-web/npm-debug.log*
-gostack-gympoint-web/yarn-debug.log*
-gostack-gympoint-web/yarn-error.log*
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
 
 # OSX
 #
-gostack-gympoint-mobile/.DS_Store
+mobile/.DS_Store
 
 # Xcode
 #
-gostack-gympoint-mobile/build/
-gostack-gympoint-mobile/*.pbxuser
-gostack-gympoint-mobile/!default.pbxuser
-gostack-gympoint-mobile/*.mode1v3
-gostack-gympoint-mobile/!default.mode1v3
-gostack-gympoint-mobile/*.mode2v3
-gostack-gympoint-mobile/!default.mode2v3
-gostack-gympoint-mobile/*.perspectivev3
-gostack-gympoint-mobile/!default.perspectivev3
-gostack-gympoint-mobile/xcuserdata
-gostack-gympoint-mobile/*.xccheckout
-gostack-gympoint-mobile/*.moved-aside
-gostack-gympoint-mobile/DerivedData
-gostack-gympoint-mobile/*.hmap
-gostack-gympoint-mobile/*.ipa
-gostack-gympoint-mobile/*.xcuserstate
+mobile/build/
+mobile/*.pbxuser
+mobile/!default.pbxuser
+mobile/*.mode1v3
+mobile/!default.mode1v3
+mobile/*.mode2v3
+mobile/!default.mode2v3
+mobile/*.perspectivev3
+mobile/!default.perspectivev3
+mobile/xcuserdata
+mobile/*.xccheckout
+mobile/*.moved-aside
+mobile/DerivedData
+mobile/*.hmap
+mobile/*.ipa
+mobile/*.xcuserstate
 
 # Android/IntelliJ
 #
-gostack-gympoint-mobile/build/
-gostack-gympoint-mobile/.idea
-gostack-gympoint-mobile/.gradle
-gostack-gympoint-mobile/local.properties
-gostack-gympoint-mobile/*.iml
+mobile/build/
+mobile/.idea
+mobile/.gradle
+mobile/local.properties
+mobile/*.iml
 
 # node.js
 #
-gostack-gympoint-mobile/node_modules/
-gostack-gympoint-mobile/npm-debug.log
-gostack-gympoint-mobile/yarn-error.log
+mobile/npm-debug.log
+mobile/yarn-error.log
 
 # BUCK
-gostack-gympoint-mobile/buck-out/
-gostack-gympoint-mobile/\.buckd/
-gostack-gympoint-mobile/*.keystore
-gostack-gympoint-mobile/!debug.keystore
+mobile/buck-out/
+mobile/\.buckd/
+mobile/*.keystore
+mobile/!debug.keystore
 
 # fastlane
 #
@@ -75,12 +75,12 @@ gostack-gympoint-mobile/!debug.keystore
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/
 
-gostack-gympoint-mobile/*/fastlane/report.xml
-gostack-gympoint-mobile/*/fastlane/Preview.html
-gostack-gympoint-mobile/*/fastlane/screenshots
+mobile/*/fastlane/report.xml
+mobile/*/fastlane/Preview.html
+mobile/*/fastlane/screenshots
 
 # Bundle artifact
-gostack-gympoint-mobile/*.jsbundle
+mobile/*.jsbundle
 
 # CocoaPods
-gostack-gympoint-mobile/ios/Pods/
+mobile/ios/Pods/
