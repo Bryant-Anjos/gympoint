@@ -20,13 +20,13 @@ Após clonado o repositório, no Linux ou no MAC digite os seguintes comandos:
 
 No windows é necessário entrar em cada uma das das pastas do repositório clonado e em cada uma delas executar `yarn install` ou `npm install`.
 
-Após feito isso na pasta `gostack-gympoint-backend` copie o arquivo `.env.example` e o renomeie para `.env`.
+Após feito isso na pasta `backend` copie o arquivo `.env.example` e o renomeie para `.env`.
 
 ## Configurando o projeto
 
 Após iniciado, será necessário configurar os bancos de dados, o servidor de e-mail e o sentry.
 Os bancos necessários para o projeto é o `Postgres SQL` e o `Redis Alpine`.
-Preencha todos os dados necessários no arquivo `.env` no diretório `gostack-gympoint-backend`.
+Preencha todos os dados necessários no arquivo `.env` no diretório `backend`.
 
 Para executar a aplicação Mobile é necessário ter o ambiente preparado para executar o [React Native](https://facebook.github.io/react-native/docs/getting-started), seja em uma emulador ou em um smartphone.
 
@@ -36,20 +36,20 @@ As aplicações Web e Mobile possuem os arquivos de configuração de endereço 
 
 Após concluir as etapas de inicialização e de configuração execute os seguintes comandos para executar as aplicações desejadas.
 
-# Back-end
+### Back-end
 
 Lembre-se de estar com os bancos de dados executando e o arquivo `.env` configurado corretamente.
 
 - `yarn dev` ou `npm run dev`
 - `yarn queue` ou `npm run queue`
 
-# Web
+### Web
 
 Lembre-se de estar com o back-end executando corretamente para que a aplicação web possa buscar os dados necessários.
 
 - `yarn start` ou `npm run start`
 
-# Mobile
+### Mobile
 
 Lembre-se de estar com o back-end executando corretamente para que o aplicativo possa buscar os dados necessários.
 
