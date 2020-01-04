@@ -1,0 +1,10 @@
+{
+  "name": "gympoint",
+  "version": "0.9.0",
+  "main": "index.js",
+  "author": "Bryant Moreira dos Anjos <bryant_mx@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "configure": "./script.sh -i"
+  }
+}
